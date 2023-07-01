@@ -14,6 +14,6 @@ def get_my_ip():
     return ip_address
 
 
-IPAddress = get_my_ip()
+IPAddress = '192.168.43.138'
 
-print(f"Hello, World! My IP is {IPAddress}")
+print(f"The file server ip is {IPAddress}")
